@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #707070;
+    border-top: #e16d65 8px solid;
+}
+/* HEADER */
+header{
+    height: 110px;
+    display: flex;
+}
+    #top{
+        height: 50px;
+        width: 900px;
+        margin: auto;
+        line-height: 50px; /* se coloca la misma altura, sirve para centrar la caja*/
+        display: flex;
+        justify-content: space-between;
+}
+#brand{
+    font-size: 20px;
+    color: #e16d65;
+    text-decoration: none;
+    font-weight: 500;
+}
+#top nav a{
+    text-decoration: none;
+    color: #707070;
+    padding: 10px;
+    font-weight: 500;
+}
+#top nav a:hover{
+    color: #e16d65;
+    transition: 0.3s;
+}
+/* HERO */
+#hero{
+    height: 350px;
+    /* imagen de fondo */
+    background-image: url(../fullstack/img/fullstack.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; /*cubre toda la zona*/
+    background-position: center center; /* posicion en el eje (x) e (y) */
+    /* contenido de texto*/ 
+    text-align: center;
+    line-height: 350px;
+    color: #fff;
+    font-size: 40px;
+}
+
+
+main{
+    width: 900px;
+    margin: auto;
+    padding: 52px 0; /* separacion interna vertical*/
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;  /* respeta los anchos*/
+    justify-content: space-evenly;
+
+
+}
+h1{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 26px;
+    margin-bottom: 16px;
+}
+/* contenido de seccion fullstack */
+.fullstack h2 img{
+    width: 30px;
+    position: relative;
+    top: 10px;
+    margin-right: 5px;
+}
+.fullstack h2{
+    font-size: 16px;
+    padding-bottom: 16px;
+
+
+}
+.fullstack{
+    margin: 16px 10px;
+    width: 400px;
+    padding: 16px;
+    box-shadow:  0px 0px 4px #dfdfdf;
+    border-radius: 20px;
+
+}
+.fullstack p{
+    /* interlineado */
+    line-height: 20px;
+}
+/* contenido de seccion backend */
+/* dona */
+
+#dona, #grafico, #extra{
+    box-shadow:  0px 0px 4px #dfdfdf;
+    border-radius: 20px;
+}
+#dona:hover #grafito:hover #extra:hover{
+    box-shadow: 0px 0px 4px #d9d9d9;
+}
+
+
+#dona{
+    position: relative;
+    top: 16px;
+    width: 290px;
+    margin: auto;
+    padding: 15px 20px;
+}
+#dona h2{
+    font-size: 20px;
+    margin: 10px 0px;
+}
+#dona img{
+    width: 250px;
+}
+#cifraBig{
+    font-size: 36px;
+    display: block;
+    text-align: center;
+
+}
+#grafico{
+    position: relative;
+    top: 32px;
+    width: 580px;
+    height: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+#grafico img{
+    width: 550px;
+    display: block;
+
+}
+    .pill{
+        background-color: #E16D65;
+        color: #fff;
+        font-size: 14px;
+        border-radius: 16px;
+        padding: 3px 8px;
+}
+    .cifraSmall{
+    font-size: 20px;
+    font-weight: 450px;
+    display: block;
+    padding: 10px 0px;
+}
+
+
+/* FOOTER */ 
+footer {
+    height: 110px;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: #707070;
+    padding: 10px;
+    font-weight: 400;
+}
+footer a img{
+    width: 30px;
+}
+footer nav{
+    line-height: 60px;
+}
+footer a:hover{
+    color: black;
+    transition: 0.3s;
+}
+
